@@ -9,6 +9,8 @@ start_markup = ReplyKeyboardMarkup(resize_keyboard=True).add(
 
 auth_menu_markup = ReplyKeyboardMarkup(resize_keyboard=True).add(
     KeyboardButton(text="Места"),
-    KeyboardButton(text="Поиск мест"),
-
+    KeyboardButton(text="Категория"),
+    KeyboardButton(text="Места рядом"),
 )
+
+places_markup = InlineKeyboardMarkup(row_width=2)
